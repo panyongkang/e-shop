@@ -1,0 +1,452 @@
+body, h1, h2, h3, h4, h5, h6, u, i, div, span, table, tr, td, dl, dd, dt, ul, ol, li, pre, form, input, textarea, p {margin: 0;padding: 0;}
+a {text-decoration: none;outline: none;blr: expression(this.onFocus=this.blur());color: #464946;}
+input {background: none;outline: none;blr: expression(this.onFocus=this.blur());}
+h1, h2, h3, h4, h5, h6 {font-size: 100%;font-weight: normal;}
+li, ol {list-style: none;}
+.fl {float: left;}
+.fr {float: right;}
+body {font-family: arial, "???ии?беиж??иж??";color: #303030;background: #f4f4f4;}
+/* banner */
+.banner {width: 100%;height: 730px;max-width: 1400px;min-width: 1200px;margin: 0 auto;overflow: hidden;}
+.banner .bcont {position: relative;left: 50%;margin-left: -700px;width: 1440px;height: 730px;}
+#container {width: 1440px;height: 730px;}
+#anitOut {position: absolute;left: 0;top: 0;width: 1440px;height: 730px;}
+.fshow {position: relative;left: 0;top: 0;height: 100%;z-index: 50 }
+.banners {position: relative;width: 1000px;height: 100%;display: none;margin: 0 auto;overflow: hidden;}
+.bnav {position: absolute;left: 50%;bottom: 20px;width: 80px;margin-left: -40px;z-index: 400 }
+.bnav li {float: left;width: 16px;height: 16px;margin-right: 4px;font-size: 0;line-height: 0;background: transparent url(http://im-img.qq.com/pcqq/img/6_0/bnav.png) no-repeat -20px center }
+.bnav li.current {background: transparent url(http://im-img.qq.com/pcqq/img/6_0/bnav.png) no-repeat 0 center }
+.banner_intro {float: left;width: 50%;padding-top: 100px;line-height: 2;text-shadow: 0px 20px 20px rgba(0, 0, 0, 0.5);}
+.banner_h1 {font-size: 72px;color: #eeeeee;}
+.banner_h2 {font-size: 36px;color: #eeeeee;}
+.banner_txt {font-size: 18px;color: #eeeeee;}
+.banner_pic {float: right;width: 50%;padding-top: 100px;}
+/* footer */
+.footer {width: 100%;min-width: 1200px;padding-bottom: 50px;background: #2d2d2d;}
+.footc {width: 1200px;margin: 0 auto;padding: 30px 0;overflow: hidden;}
+.footc .copyright {float: left;width: 250px;font-size: 14px;line-height: 1.5;color: #a0a0a0;}
+.footc .copyright strong {font-size: 30px;font-weight: 100;}
+.footc .footmenu {float: left;width: 950px;}
+.footc .footmenu dl {float: left;width: 155px;line-height: 1.8;font-size: 14px;}
+.footc .footmenu dl a {display: block;color: #a0a0a0;}
+.footc .footmenu dt a {color: #a0a0a0;}
+.foot_barcode{float: right;width: 100px;height: 100px;}
+.foot_barcode img{width: 100px;height: 100px;}
+/* hader */
+.header {width: 100%;min-width: 1200px;height: 111px;margin: 0 auto;}
+.headerBox {width: 100%;min-width: 1200px;height: 112px;margin: 0 auto;background: #ffffff;}
+.fixed .headerBox {position: fixed;left: 0;top: 0;z-index: 10000;border-bottom: 1px solid #ddd;}
+.topnav {width: 100%;margin: 0 auto;height: 40px;line-height: 40px;background: #ededed;overflow: hidden;}
+.topnavCont {width: 1200px;margin: 0 auto;height: 40px;line-height: 40px;background: #ededed;overflow: hidden;}
+.topMenu {float: left;}
+.topMenu a {display: inline-block;height: 40px;margin: 0 10px;font-size: 14px;color: #a0a0a0;padding: 0 5px;}
+.topMenu a:hover {background: #dddddd;}
+.topnav .language {float: right;width: 40px;height: 40px;padding: 0 5px;background: #535353;color: #bababa;background: #535353  url(http://www.zerouav.com/images/icon_v.png) 30px center no-repeat;}
+.topnav .language a {color: #bababa;}
+.headerCont {width: 100%;min-width: 1200px;margin: 0 auto;height: 71px;}
+.headerC {position: relative;z-index: 1000;width: 100%;min-width: 1200px;margin: 0 auto;height: 71px;background: #fff;}
+.headerC.fixed{z-index: 5000;position: fixed;left: 0;top: 0;background: rgba(255,255,255,0.9);}
+.headerCb{width: 1200px;margin: 0 auto;height: 71px;overflow: hidden;}
+.logo {float: left;padding: 5px;}
+.nav {float: right;padding: 20px 0;height: 31px;line-height: 31px;}
+.nav li {float: left;margin-left: 50px;}
+.nav li a {display: inline-block;font-size: 16px;color: #070707;}
+.nav li a.nav_product {padding-right: 15px;background: url(http://www.zerouav.com/images/icon_v.png) right center no-repeat;}
+.nav li a:hover, .nav li a.current {border-bottom: 3px solid #e93830;}
+.content {width: 1200px;margin: 0 auto;padding: 0px 0;}
+.content.w100 {width: 100%;min-width: 1200px;}
+/* kxy style */
+.brief_content {width: 1140px;margin: 0 auto;padding: 0px 0;}
+.brief_productList {width: 100%;overflow: hidden;padding-top: 40px;}
+.brief_productList ul {width: 105%;}
+.brief_productList li {float: left;width: 380px;height: 270px;margin-right: 7px;border: 1px solid #e3e3e3;}
+.brief_productList li img {width: 380px;height: 270px;}
+.brief_ad_index_bottom {width: 1138px;height: 268px;margin-top: 40px;border: 1px solid #e3e3e3;margin-bottom: 40px;}
+.brief_ad_index_bottom img {width: 1138px;height: 268px;}
+/* kxy style */
+.w1140 {width: 1140px;margin: 0 auto;}
+/* иж|?иж?ж╠ style */
+.productList {width: 100%;overflow: hidden;padding-top: 40px;}
+.productList ul {width: 105%;}
+.productList li {float: left;width: 380px;height: 270px;margin-right: 27px;border: 1px solid #e3e3e3;}
+.productList li img {width: 380px;height: 270px;}
+.productSystem {width: 100%;margin-top: 40px;overflow: hidden;}
+.productSystem ul {width: 105%;}
+.productSystem li {float: left;width: 585px;height: 150px;margin-right: 26px;border: 1px solid #e3e3e3;}
+.productSystem li img {width: 585px;height: 150px;}
+.ad_index_bottom {width: 1198px;height: 268px;margin-top: 40px;border: 1px solid #e3e3e3;margin-bottom: 40px;}
+.ad_index_bottom img {width: 1198px;height: 268px;}
+/* sub page */
+.pageBanner {width: 100%;min-width: 1200px;/* max-width: 1400px;*/
+	/*height: 350px;*/ overflow: hidden;background-color: #f4f4f4;background-image: url(http://www.zerouav.com/images/banner_about.jpg);background-repeat: repeat-x;background-position: center top;height: 350px;margin-top: 0;margin-right: auto;margin-bottom: 0;margin-left: auto;}
+.pageBanner img {position: relative;display: block;width: 2200px;/*height: 350px;*/ left: 50%;margin-left: -700px;}
+.subNav {width: 100%;margin: 0 auto;min-width: 1200px;height: 37px;}
+.subNavbox {z-index: 1000;width: 100%;margin: 0 auto;min-width: 1200px;height: 36px;background: #454545;border-bottom: 1px solid #000000;}
+.subNavbox.fixed{position: fixed;left: 0;top: 71px;background: rgba(69,69,69,0.8);}
+.subNavcont {width: 100%;max-width: 1200px;min-width: 1200px;height: 36px;line-height: 36px;overflow: hidden;margin: 0 auto;}
+.fixed .subNavbox {position: fixed;left: 0;top: 112px;z-index: 10000;}
+.subNav ul {width: 1200px;margin: 0 auto;overflow: hidden;}
+.subNav li {float: left;width: 250px;height: 36px;border-left: 1px solid #fff;text-indent: 10px;}
+.subNav li a {display: block;color: #fff;font-size: 14px;}
+.subNav li a.current {background: #000000;}
+.subNav li a:hover {background: #000000;}
+.subNav dl {width: 100%;overflow: hidden;color: #fff;}
+.subNav dt {float: left;width: 250px;font-size: 18px;font-weight: normal;padding-left: 10px;background: #171717;margin-right: 1px;}
+.subNav dd {float: left;overflow: hidden;white-space: nowrap;}
+.subNav dd a {display: block;float: left;padding: 0 30px;margin-right: 1px;color: #fff;font-size: 14px;}
+.subNav dd.current a, .subNav dd a:hover {background: #171717;}
+/* about */
+.about {position: relative;left: 50%;margin-left: -700px;width: 1200px;padding: 40px 100px;background: #f4f4f4;}
+.about_txt {line-height: 2;font-size: 14px;color: #303030;}
+.about_txt p {margin-bottom: 10px;text-indent: 28px;}
+/* contact */
+.tables {width: 100%;margin-top: 30px;overflow: hidden;}
+.tables .tit {line-height: 30px;padding: 10px 0;font-size: 16px;}
+.tables table {width: 100%;background: #dddddd;}
+.tables table td {background: #ffffff;padding: 10px 15px;line-height: 1.8;font-size: 14px;}
+.code2 {overflow: hidden;margin-top: 20px;}
+.code2 dl {float: left;width: 50%;}
+.code2 dt {float: left;width: 100px;height: 100px;padding: 5px;background: #ffffff;}
+.code2 dt img {width: 100px;height: 100px;}
+.code2 dd {float: left;width: 120px;font-size: 14px;line-height: 1;padding: 10px 0;text-align: center;}
+.about_contact {overflow: hidden;color: #303030;}
+.about_contact .w33 {float: left;width: 33%;overflow: hidden;}
+.about_contact .w33 h4 {font-size: 16px;line-height: 2;margin-bottom: 10px;padding-right: 20px;}
+.about_contact .w33 div {font-size: 14px;line-height: 1.8;margin-bottom: 5px;padding-right: 20px;}
+/* join us */
+.job_list {width: 1200px;margin: 0px auto 0;overflow: hidden;margin-top: 100px;margin-bottom: 100px;position: relative;left: 0px;}
+.job_list ul {position: relative;left: 0;width: 10000px;overflow: hidden;margin-bottom: 30px;}
+.job_list li {position: relative;float: left;width: 230px;margin-right: 12px;}
+.job_item_pic {width: 147px;height: 147px;overflow: hidden;margin: 0 auto;opacity: 0.5;}
+.job_item_name {width: 100%;padding: 20px 0;text-align: center;font-size: 16px;color: #000000;}
+.job_item_intro {height: 300px;border: 1px solid #eee;background: #ffffff;}
+.job_item_intro_txt {height: 240px;padding: 10px 15px;line-height: 1.8;font-size: 12px;font-weight: 100;overflow: hidden;}
+.job_item_more {display: block;position: absolute;bottom: 0;left: 85px;width: 62px;height: 31px;background: url(http://www.zerouav.com/images/icon_details.png) right 0 no-repeat;text-indent: -500px;overflow: hidden;}
+.job_list li:hover .job_item_pic {opacity: 1;}
+.job_list li:hover .job_item_intro {border: 1px solid #ccc;}
+.job_list li:hover .job_item_more {background-position: left top;}
+.job_list_nav {margin-left: -10px;width: 100%;height: 20px;text-align: center;}
+.job_list_nav span {display: inline-block;width: 16px;height: 16px;background: #c1c1c1;margin: 0 10px;border-radius: 8px;}
+.job_list_nav span.current, .job_list_nav span:hover {background: red;}
+/* scroll page content */
+.scrollmain {background: #f4f4f4;width: 100%;}
+.scrollpage {width: 100%;height: 500px;background: #f4f4f4;/* margin-top: 2px;*/
+    overflow: hidden;}
+.scrollNavbox {display: none;position: fixed;z-index: 100;right: 0;top: 0;bottom: 0;width: 10px;height: 100%;}
+.scrollnav {position: absolute;right: 10px;top: 50%;width: 20px;height: auto;}
+.scrollnav li {position: relative;width: 10px;margin-bottom: 10px;cursor: pointer;}
+.scrollnav span {display: inline-block;width: 10px;height: 10px;border-radius: 5px;background: #000;opacity: .5;}
+.scrollnav strong {display: none;position: absolute;right: 10px;top: 0;width: auto;height: 20px;line-height: 20px;color: #000;font-size: 12px;white-space: nowrap;font-weight: 100;padding-right: 10px;}
+.scrollnav li:hover strong {display: inline-block;}
+.scrollnav li.current span {opacity: 1;}
+.scrollnav li.current strong {display: inline-block;}
+/* ?oбь??? ?|?ии?бу */
+.proVideo {width: 100%;height: 100%;overflow: hidden;}
+.proVideo_item {float: left;position: relative;}
+.proVideo_item a {display: block;height: 100%;border: 1px solid #ddd;}
+.proVideo_item img {width: 100%;height: 100%;}
+.proVideo_item .proVideo_icon {position: absolute;left: 0;top: 0;right: 0;bottom: 0;z-index: 10;background: url(http://www.zerouav.com/images/video_icon.png) center center no-repeat;}
+.proVideo  .proVideo_item.col2 {height: 50%;width: 50%;}
+.proVideo  .proVideo_item.col3 {height: 50%;width: 33.3%;}
+.scrollpage_img {width: 100%;height: 100%;overflow: hidden;text-align: center;}
+.scrollpage_img img {float: left;position:relative;height: 100%;margin: 0 auto;}
+/* kxy ?|?ии?бу */
+.scrollpage_c1140_kxy {width: 1140px;margin: 0 auto;padding: 0px 0;height: 100%;}
+/* kxy ?|?ии?бу */
+.scrollpage_c1140 {width: 1140px;margin: 0 auto;padding: 50px 0;height: 100%;}
+.viewMore {width: 100%;height: 76px;text-align: center;background: url(http://www.zerouav.com/images/viewmore.png) center top no-repeat;text-align: center;font-size: 16px;color: #ededed;line-height: 70px;/* margin-top: 50px;*/ }
+/* kxy viewMore */
+.viewMore_n {width: 100%;height: 76px;text-align: center;text-align: center;font-size: 16px;color: #ededed;line-height: 70px;/* margin-top: 50px;*/
+}
+/* kxy viewMore */
+.viewMore a {color: #ededed;}
+.comTit {width: 100%;height: 35px;overflow: hidden;}
+.comTit_name {float: left;padding: 0 50px;height: 35px;line-height: 35px;background: #8c8c8c;font-size: 16px;color: #f4f4f4;text-align: center;}
+.comTit_more {display: block;float: right;padding-right: 15px;background: url(http://www.zerouav.com/images/icon_v.png) right center no-repeat;line-height: 35px;font-size: 16px;color: #8c8c8c;}
+.tuku {overflow: hidden;margin-top: 50px;}
+.tuku ul {width: 105%;overflow: hidden;margin-top: 20px;}
+.tuku li {float: left;width: 280px;height: 210px;border: 1px solid #e4e4e4;background: #ffffff;margin-right: 5px;margin-bottom: 20px;}
+.tuku li img {width: 100%;height: 100%;}
+/* ?????бу */
+.comTit2 {width: 100%;height: 35px;overflow: hidden;border-bottom: 1px solid #bababa;}
+.comTit2_name {float: left;/* padding: 0 50px;*/
+    height: 35px;min-width: 140px;padding: 0 20px;line-height: 35px;background: #bababa;font-size: 16px;color: #f4f4f4;text-align: center;}
+.conTit2_name2 {float: left;min-width: 200px;height: 35px;padding: 0 10px;line-height: 35px;background: #d5d5d5;font-size: 16px;color: #f4f4f4;text-align: center;}
+.conTit2_name2 a {color: #f4f4f4;}
+.prodata_box {margin-top: 80px;}
+.prodata_list {padding: 30px 0;border-bottom: 1px solid #bababa;overflow: hidden;}
+.prodata_list td {padding: 10px 20px;line-height: 1.8;font-weight: 100;font-size: 14px;color: #000000;border-right: 1px dashed #bababa;}
+.prodata_bot {text-align: center;margin-top: 80px;margin-bottom: 20px;line-height: 1.8;font-size: 14px;color: #000000;}
+.jingxiaoshang, .canshu, .questions {/* background: #f4f4f4;*/
+    padding-bottom: 100px;}
+.prodata_bot2 {width: 760px;margin: 30px auto 0;overflow: hidden;background: url(http://www.zerouav.com/images/box_shadow.png) center top no-repeat;padding: 50px 0 0;}
+.prodata_bot_kxy {width: 760px;margin: 30px auto 0;overflow: hidden;center top no-repeat;padding: 50px 0 0;}
+.com_button {display: inline-block;height: 55px;line-height: 55px;border: 1px solid #cccccc;font-size: 16px;color: #303030;text-align: center;padding: 0 50px;}
+.prodata2_list {overflow: hidden;padding: 50px 0;}
+.questions .prodata2_list {border-bottom: 1px solid #bababa;}
+.prodata2_item {float: left;width: 100%;margin-bottom: 15px;}
+.prodata2_itit {height: 31px;line-height: 31px;padding: 7px 10px;font-size: 16px;background: #eee url(http://www.zerouav.com/images/icon_vr.png) 99% center no-repeat;cursor: pointer;}
+.prodata2_itit .pt {display: block;background: url(http://www.zerouav.com/images/icon_t2.png) left center no-repeat;padding-left: 20px;overflow: hidden;}
+.prodata2_icont {display: none;padding: 10px 30px;line-height: 1.8;}
+.prodata2_item.current .prodata2_itit {background: #d5d5d5 url(http://www.zerouav.com/images/icon_v.png) 99% center no-repeat;}
+.prodata2_item.current .prodata2_itit .pt {background: url(http://www.zerouav.com/images/icon_t1.png) left center no-repeat;}
+.prodata2_item.current .prodata2_icont {display: block;}
+.down_name {float: left;width: 30%;padding-left: 3%;border-right: 1px dashed #bababa;}
+.down_size {float: left;width: 30%;padding-left: 3%;border-right: 1px dashed #bababa;text-align: center;}
+.down_date {float: left;width: 30%;padding-left: 3%;}
+.down_date strong {display: block;background: url(http://www.zerouav.com/images/icon_date.png) left center no-repeat;padding-left: 25px;margin-left: 50px;overflow: hidden;}
+.down_list {overflow: hidden;text-align: right;line-height: 50px;padding: 20px 30px;}
+.down_list span {display: inline-block;width: 100px;height: 50px;margin-left: 15px;text-indent: -300px;overflow: hidden;white-space: nowrap;}
+.down_list a {display: inline-block;width: 137px;height: 50px;margin-left: 15px;text-indent: -300px;overflow: hidden;}
+.down_list a.d_exe {background: #eee url(http://www.zerouav.com/images/bt_exe.png) 0 0 no-repeat;}
+.down_list a.d_zip {background: #eee url(http://www.zerouav.com/images/bt_zip.png) 0 0 no-repeat;}
+.down_list a.d_pdf {background: #eee url(http://www.zerouav.com/images/bt_pdf.png) 0 0 no-repeat;}
+/* иибьбъ??3??1??? */
+.solution {padding-bottom: 100px;}
+.prodata3_list {overflow: hidden;width: 105%;border-bottom: 1px solid #bbb;padding-bottom: 50px;margin-bottom: 50px;}
+.prodata3_item {float: left;margin-top: 50px;}
+.prodata3_item .pic {width: 100%;height: 200px;border: 1px solid #e4e4e4;}
+.prodata3_item .pic img {width: 100%;height: 100%;}
+.prodata3_item .tit {font-size: 16px;line-height: 1.8;padding: 5px 0;color: #000000;margin-top: 10px;}
+.prodata3_item .tit a {color: #333333;}
+.prodata3_item .intro {width: 100%;line-height: 1.5;font-size: 12px;color: #666666;}
+.prodata3_item .links {overflow: hidden;text-align: left;padding: 10px 0;font-size: 14px;color: #000000;}
+.prodata3_item .links a {/* margin: 0 5px;*/
+    color: #a0a0a0;}
+.prodata3_item .links span {margin: 0 5px;color: #a0a0a0;}
+.prodata3_list.col2 .prodata3_item {width: 555px;margin-right: 30px;}
+.prodata3_list.col3 .prodata3_item {width: 360px;margin-right: 30px;}
+.prodata3_list.col4 .prodata3_item {width: 215px;margin-right: 90px;}
+.prodata3_list.col4 .prodata3_item .pic {height: 158px;}
+/* иибь?ижбщ? */
+.videos {padding: 0 15px 15px;background: #ffffff;margin: 50px auto;}
+.plist3 {width: 110%;overflow: hidden;}
+.plist3 li {float: left;width: 380px;height: 230px;position: relative;overflow: hidden;background: #333333;margin: 15px 15px 0px 0;}
+.plist3 li .pic {position: absolute;left: 0;top: 0;width: 380px;height: 230px;z-index: 2;}
+.plist3 li .pic a{display: block;width: 100%;height: 100%;position: absolute;left: 0;top: 0;z-index: 10;background: url("http://www.zerouav.com/images/video_icon.png") center center no-repeat;overflow: hidden;}
+.plist3 li:hover .pic a{background:none;}
+.plist3 li .pic a:hover{background-position: center center;}
+.plist3 li .pic img {width: 380px;height: 230px;}
+.plist3 li .tit {position: absolute;left: 0;right: 0;top: -25px;height: 30px;color: #fff;font-size: 16px;line-height: 30px;padding: 10px;z-index: 1;}
+.plist3 li .tit a {display: block;color: #fff;}
+/* иибь?ижбщ?_kxy */
+.videos {padding: 0 15px 15px;background: #ffffff;margin: 50px auto;}
+.plist3 {width: 110%;overflow: hidden;}
+.plist3 li {float: left;width: 380px;height: 230px;position: relative;overflow: hidden;background: #333333;margin: 15px 15px 0px 0;}
+.plist3 li .pic {position: absolute;left: 0;top: 0;width: 380px;height: 230px;z-index: 2;}
+.plist3 li:hover .pic a{display: block;width: 100%;height: 100%;position: absolute;left: 0;top: 0;z-index: 10;background: url("http://www.zerouav.com/images/video_icon.png") center center no-repeat;overflow: hidden;}
+.plist3 li .pic a{background:none;}
+.plist3 li .pic a:hover{background-position: center center;}
+.plist3 li .pic img {width: 380px;height: 230px;}
+.plist3 li .tit {position: absolute;left: 0;right: 0;top: 0px;height: 30px;color: #fff;font-size: 16px;line-height: 30px;padding: 10px;z-index: 11;display: block;background-image: url(http://www.zerouav.com/images/tit_bg.png);background-repeat: repeat-x;}
+.plist3 li:hover .tit {position: absolute;left: 0;right: 0;top: 0px;height: 30px;color: #fff;font-size: 16px;line-height: 30px;padding: 10px;z-index: 11;display: none;}
+
+/* pages */
+.pages {height: 28px;padding: 20px 0px 60px 0px;text-align: center;clear: both;font-family: Arial;margin: 0 auto;width: 100%;}
+.pages a, .pages span {display: inline-block;width: 22px;height: 22px;line-height: 22px;padding: 3px 3px;margin: 0px 3px;color: #717171;background-image: url(http://www.zerouav.com/images/bt_bg.gif);background-repeat: no-repeat;text-align: center;}
+.pages a {background-position: 0px 0px;}
+a.page:hover, span.page {background-position: 0px -38px;color: #ffffff;}
+.pagesSh {height: 28px;padding: 40px 0px 40px 0px;text-align: center;clear: both;font-family: Arial;}
+.pagesSh a, .pagesSh b {display: inline-block;height: 22px;line-height: 22px;padding: 3px 9px;margin: 0px 3px;color: #717171;text-align: center;}
+.pagesSh a {border: 1px solid #d9d9d9;}
+.pagesSh a:hover {border: 1px solid #fd8200;}
+/* иибь?ижбщ? ????o? */
+.shareVideo {margin: 0 auto;overflow: hidden;padding-bottom: 50px;}
+.shareVtit {text-align: center;font-size: 30px;color: #999;line-height: 2;}
+.shareVcont {/* width: 100%;*/
+    display: none;height: 164px;padding: 40px 30px 30px;background: #eee url(http://www.zerouav.com/images/video_share_bg.png) center 0 no-repeat;}
+.shareVcont table {width: 100%;}
+.shareVcont td {padding: 20px;}
+.shareVcont td dl {overflow: hidden;}
+.shareVcont td dt {float: left;line-height: 30px;margin-right: 10px;}
+.shareVcont td dd {float: left;height: 30px;line-height: 30px;}
+.shareVcont td dd input {width: 200px;height: 28px;line-height: 28px;border: 1px solid #dddddd;}
+.button_submitVideo {display: block;width: 100%;height: 30px;line-height: 30px;text-align: center;font-size: 14px;color: #fff;background: #fe0000;}
+.shareVbutton {text-align: center;}
+/* ??бе???иж?бз???ии?? */
+.tables {width: 100%;margin-top: 30px;overflow: hidden;}
+.tables .tit {line-height: 30px;padding: 10px 0;font-size: 20px;}
+.tables table {width: 100%;background: #dddddd;}
+.tables table td {background: #ffffff;padding: 10px 15px;line-height: 1.8;font-size: 14px;}
+.tables_txt {padding: 20px 0;line-height: 1.8;font-size: 14px;}
+.welcomeUse {padding: 50px 0;line-height: 2;text-align: center;border-bottom: 2px solid #ccc;}
+.welcomeUse h4 {font-size: 36px;}
+.welcomeUse div {line-height: 1.5;font-size: 14px;}
+
+/* banner */
+#focusBar {width:100%;height:644px;clear:both;position:relative;background:#242424;overflow:hidden;}
+#focusBar li {width:100%;clear:both;height:644px;display:none;position:absolute;/* position:relative;*/}
+#focusBar .focusL {height:644px;position:absolute;z-index:9;/*left:-1000px;*/ top:0px;left:-600px;margin-left:50%;}
+#focusBar .focusR {height:644px;position:absolute;z-index:19;/* right:1000px;*/top:0px;left:-600px;margin-left:50%;}
+
+a.arrL,a.arrR {display:block;width:52px;height:134px;position:absolute;top:250px;z-index:99;cursor:pointer;background-image:url(http://www.zerouav.com/images/bt_arr.png);background-repeat:no-repeat;}
+a.arrL {left:0px;background-position:0px 0px;} a.arrR {right:0px;background-position:-68px 0px;}
+a.arrL:hover {background-position:0px -144px;}
+a.arrR:hover {background-position:-68px -144px;}
+
+
+/* products nav*/
+.nav_products {display: none;position: absolute;top: 71px;background: rgba(255, 255, 255, 0.95);width: 100%;padding-top: 10px;margin: 0 auto;border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;}
+.nav_products .row {width: 1200px;margin: 0 auto;overflow: hidden;}
+.nav_col {float: left;width: 20%;}
+.sub-menu {margin-right: 30px;padding: 10px 0;}
+.sub-menu hr.submenu_line {height: 0;border: 0;border-top: 1px solid #eee;margin: 10px 0;}
+.sub-menu li {font-size: 14px;line-height: 1.8;}
+.sub-menu li .sub-menu li {font-size: 12px;padding: 3px 5px;}
+.sub-menu li .sub-menu li a:hover {color: royalblue;}
+.submenu_tit {color: #000;font-size: 16px;}
+
+.sub-menu .tag_new{color: red;padding: 0 5px;}
+
+
+.scrollpage_img img{float: none;}
+
+/******************************** ??o???????o|иж???o|??????????-?????|???бд??? ***********************************/
+.scrollpage_img2 {float: left;position: relative;left: 50%;margin-left: -600px;width: 1200px;height: auto;}
+.scrollpage_img2 img {width: 100%;height: auto;margin: 0;}
+.introPage {position: absolute;z-index: 10;}
+.introPage ._tit {font-size: 36px;line-height: 2;font-weight: 700;color: #000;}
+.introPage ._tit2 {font-size: 30px;line-height: 2;font-weight: 100;color: #000;}
+.introPage ._txt {font-size: 24px;line-height: 2;font-weight: 100;color: #000;}
+.introLeft {left: 50px;top: 50px;}
+.introRight {right: 50px;top: 50px;}
+.introMiddle {left: 50px;right: 50px;top: 50px;}
+
+
+/******************************** ???ии?? ??1??o??? ***********************************/
+
+#pop {display: none;position: absolute;width: 100%;height: 100%;left: 0;right: 0;top: 0;bottom: 0;z-index: 9999;}
+#popbg {position: absolute;z-index: 0;width: 100%;height: 100%;background: url(http://www.zerouav.com/images/black50.png) repeat;}
+.popbox {overflow: hidden;display: none;position: relative;z-index: 100;width: 800px;margin: 0 auto;background: #fff;}
+.popcont {margin: 10px;background: #fff;padding: 20px;}
+.popclose {position: absolute;right: 7px;top: 5px;z-index: 100;width: 27px;height: 27px;background: url(http://www.zerouav.com/images/close.png) no-repeat;}
+
+/* ???ии???????1 */
+.job_intro{display: none;}
+.joinusCont ._tit {width: 100%;text-align: center;line-height: 2;font-size: 24px;color: #000;}
+.joinusCont ._tit2 {width: 100%;line-height: 2;font-size: 18px;color: #000;}
+.joinusCont ._txt {width: 100%;line-height: 2;font-size: 14px;color: #000;padding: 20px 0;color: #666;}
+.joinusCont ._txt a {color: blue;}
+
+
+/******************************** ??буиж???бз???? ***********************************/
+
+.newsPage {overflow: hidden;padding-top: 30px;padding-bottom: 50px;}
+.newsLeft {float: left;width: 850px;border-right: 1px solid #ddd;padding-right: 20px;}
+.newsRight {float: right;width: 300px;min-height: 200px;}
+.news {overflow: hidden;}
+.newsItem {width: 100%;padding: 20px 0;border-bottom: 1px dashed #ddd;overflow: hidden;}
+.newsItem_pic {float: left;width: 220px;height: 146px;box-shadow: 1px 1px 1px #ccc;overflow: hidden;}
+.newsItem_pic img {width: 100%;height: auto;}
+.newsItem_txt {float: right;width: 600px;padding-left: 20px;overflow: hidden;}
+.newsItem_txt ._tit {font-size: 18px;letter-spacing: 0.1em;margin-bottom: 4px;line-height: 1.5;}
+.newsItem_txt ._tit a:hover {color: royalblue;}
+.newsItem_txt ._time {font-size: 14px;color: #999;padding: 5px 0 8px;}
+.newsItem_txt ._intro {font-size: 14px;color: #666;line-height: 1.5;}
+.newsRitem {width: 100%;margin-top: 20px;}
+.newsRitem dt {height: 200px;overflow: hidden;margin-bottom: 10px;}
+.newsRitem dt img {width: 100%;height: 100%;}
+.newsRitem dd {font-size: 16px;line-height: 24px;}
+.newsRitem a:hover {color: royalblue;}
+
+
+.newsTitle {font-size: 26px;line-height: 38px;font-weight: bold;text-align: center;padding-top: 30px;padding-bottom: 20px;}
+.newsInfo {padding: 0 10px 20px;border-bottom: 1px solid #ddd;font-size: 14px;color: #666;text-align: center;}
+.newsInfo span {padding: 0 20px;}
+.newsContent {padding: 30px 0;font-size: 14px;line-height: 2;}
+.newsContent p {margin-bottom: 20px;}
+/*banner_kxy*****************************************************************888*/
+.ban {font-size: 36px;color: #FFF;padding: 100px;font-weight: bold;}
+.pageBanner_001 {width: 100%;min-width: 1200px;/* max-width: 1400px;*/
+	/*height: 350px;*/ overflow: hidden;background-color: #f4f4f4;background-image: url(http://www.zerouav.com/upload/ban/001.jpg);background-repeat: repeat-x;background-position: center top;height: 350px;text-align: center;}
+.pageBanner_002 {width: 100%;min-width: 1200px;/* max-width: 1400px;*/
+	/*height: 350px;*/ overflow: hidden;background-color: #f4f4f4;background-image: url(http://www.zerouav.com/upload/ban/002.jpg);background-repeat: repeat-x;background-position: center top;height: 350px;text-align: center;}
+.pageBanner_003 {width: 100%;min-width: 1200px;/* max-width: 1400px;*/
+	/*height: 350px;*/ overflow: hidden;background-color: #f4f4f4;background-image: url(http://www.zerouav.com/upload/ban/003.jpg);background-repeat: repeat-x;background-position: center top;height: 350px;text-align: center;}
+.pageBanner_004 {width: 100%;min-width: 1200px;/* max-width: 1400px;*/
+	/*height: 350px;*/ overflow: hidden;background-color: #f4f4f4;background-image: url(http://www.zerouav.com/upload/ban/004.jpg);background-repeat: repeat-x;background-position: center top;height: 350px;text-align: center;}
+.pageBanner_005 {width: 100%;min-width: 1200px;/* max-width: 1400px;*/
+	/*height: 350px;*/ overflow: hidden;background-color: #f4f4f4;background-image: url(http://www.zerouav.com/upload/ban/005.jpg);background-repeat: repeat-x;background-position: center top;height: 350px;text-align: center;}
+.pageBanner_006 {width: 100%;min-width: 1200px;/* max-width: 1400px;*/
+	/*height: 350px;*/ overflow: hidden;background-color: #f4f4f4;background-image: url(http://www.zerouav.com/upload/ban/006.jpg);background-repeat: repeat-x;background-position: center top;height: 350px;text-align: center;}
+.pageBanner_007 {width: 100%;min-width: 1200px;/* max-width: 1400px;*/
+	/*height: 350px;*/ overflow: hidden;background-color: #f4f4f4;background-image: url(http://www.zerouav.com/upload/ban/007.jpg);background-repeat: repeat-x;background-position: center top;height: 350px;text-align: center;}
+.pageBanner_008 {width: 100%;min-width: 1200px;/* max-width: 1400px;*/
+	/*height: 350px;*/ overflow: hidden;background-color: #f4f4f4;background-image: url(http://www.zerouav.com/upload/ban/008.jpg);background-repeat: repeat-x;background-position: center top;height: 350px;text-align: center;}
+.pageBanner_009 {width: 100%;min-width: 1200px;/* max-width: 1400px;*/
+	/*height: 350px;*/ overflow: hidden;background-color: #f4f4f4;background-image: url(http://www.zerouav.com/upload/ban/009.jpg);background-repeat: repeat-x;background-position: center top;height: 350px;text-align: center;}
+.pageBanner_010 {width: 100%;min-width: 1200px;/* max-width: 1400px;*/
+	/*height: 350px;*/ overflow: hidden;background-color: #f4f4f4;background-image: url(http://www.zerouav.com/upload/ban/010.jpg);background-repeat: repeat-x;background-position: center top;height: 350px;text-align: center;}
+.pageBanner_011 {width: 100%;min-width: 1200px;/* max-width: 1400px;*/
+	/*height: 350px;*/ overflow: hidden;background-color: #f4f4f4;background-image: url(http://www.zerouav.com/upload/ban/011.jpg);background-repeat: repeat-x;background-position: center top;height: 350px;text-align: center;}
+.pageBanner_012 {width: 100%;min-width: 1200px;/* max-width: 1400px;*/
+	/*height: 350px;*/ overflow: hidden;background-color: #f4f4f4;background-image: url(http://www.zerouav.com/upload/ban/012.jpg);background-repeat: repeat-x;background-position: center top;height: 350px;text-align: center;}
+.pageBanner_013 {width: 100%;min-width: 1200px;/* max-width: 1400px;*/
+	/*height: 350px;*/ overflow: hidden;background-color: #f4f4f4;background-image: url(http://www.zerouav.com/upload/ban/013.jpg);background-repeat: repeat-x;background-position: center top;height: 350px;text-align: center;}
+.pageBanner_014 {width: 100%;min-width: 1200px;/* max-width: 1400px;*/
+	/*height: 350px;*/ overflow: hidden;background-color: #f4f4f4;background-image: url(http://www.zerouav.com/upload/ban/014.jpg);background-repeat: repeat-x;background-position: center top;height: 350px;text-align: center;}
+.pageBanner_015 {width: 100%;min-width: 1200px;/* max-width: 1400px;*/
+	/*height: 350px;*/ overflow: hidden;background-color: #f4f4f4;background-image: url(http://www.zerouav.com/upload/ban/015.jpg);background-repeat: repeat-x;background-position: center top;height: 350px;text-align: center;}
+.pageBanner_016 {width: 100%;min-width: 1200px;/* max-width: 1400px;*/
+	/*height: 350px;*/ overflow: hidden;background-color: #f4f4f4;background-image: url(http://www.zerouav.com/upload/ban/016.jpg);background-repeat: repeat-x;background-position: center top;height: 350px;text-align: center;}
+.pageBanner_017 {width: 100%;min-width: 1200px;/* max-width: 1400px;*/
+	/*height: 350px;*/ overflow: hidden;background-color: #f4f4f4;background-image: url(http://www.zerouav.com/upload/ban/017.jpg);background-repeat: repeat-x;background-position: center top;height: 350px;text-align: center;}
+.pageBanner_018 {width: 100%;min-width: 1200px;/* max-width: 1400px;*/
+	/*height: 350px;*/ overflow: hidden;background-color: #f4f4f4;background-image: url(http://www.zerouav.com/upload/ban/018.jpg);background-repeat: repeat-x;background-position: center top;height: 350px;text-align: center;}
+.pageBanner_019 {width: 100%;min-width: 1200px;/* max-width: 1400px;*/
+	/*height: 350px;*/ overflow: hidden;background-color: #f4f4f4;background-image: url(http://www.zerouav.com/upload/ban/019.jpg);background-repeat: repeat-x;background-position: center top;height: 350px;text-align: center;}
+.pageBanner_020 {width: 100%;min-width: 1200px;/* max-width: 1400px;*/
+	/*height: 350px;*/ overflow: hidden;background-color: #f4f4f4;background-image: url(http://www.zerouav.com/upload/ban/020.jpg);background-repeat: repeat-x;background-position: center top;height: 350px;text-align: center;}
+
+
+/* index videos */
+#indexVideos{overflow: hidden;border-bottom: 1px solid #ddd;padding-bottom: 30px;}
+#indexVideos .videotit{width:100%;height:50px;line-height:50px;color:#333;}
+#indexVideos .videotit strong{float: left;font-size:24px;color: #333;font-weight: 100;}
+#indexVideos .videotit a{float: right;color: #006eb9;font-size: 14px;}
+
+
+#indexVideos .videos {padding: 20px 15px 15px;background: #ffffff;margin: 0px auto;}
+#indexVideos .plist3 {width: 110%;overflow: hidden;}
+#indexVideos .plist3 li {float: left;width: 280px;height: 200px;position: relative;overflow: hidden;background: #fff;margin: 15px 15px 0px 0;}
+#indexVideos .plist3 li .pic {position: absolute;left: 0;top: 0;width: 280px;height: 170px;z-index: 2;}
+#indexVideos .plist3 li:hover .pic a {display: block;width: 100%;height: 100%;position: absolute;left: 0;top: 0;z-index: 10;background: url("http://www.zerouav.com/images/video_icon.png") center center no-repeat;overflow: hidden;}
+#indexVideos .plist3 li .pic a {background: none;}
+#indexVideos .plist3 li .pic a:hover {background-position: center center;}
+#indexVideos .plist3 li .pic img {width: 280px;height: 170px;}
+#indexVideos .plist3 li .tit {position: absolute;left: 0;right: 0;top: 0px;height: 30px;color: #fff;font-size: 16px;line-height: 30px;padding: 10px;z-index: 11;display: block;background-image: url(http://www.zerouav.com/images/#indexVideos tit_bg.png);background-repeat: repeat-x;}
+#indexVideos .plist3 li:hover .tit {position: absolute;left: 0;right: 0;top: 0px;height: 30px;color: #fff;font-size: 16px;line-height: 30px;padding: 10px;z-index: 11;display: none;}
+
+#indexVideos .plist3 li .info{width: 100%;height: 30px;line-height: 30px;position: absolute;left: 0;bottom: 0;overflow: hidden;font-size: 12px;}
+#indexVideos .plist3 li .info ._name{float: left;/*width: 80px;*/ margin-right: 20px;background: url(http://www.zerouav.com/images/user.png) left center no-repeat;padding-left: 20px;}
+#indexVideos .plist3 li .info ._title{float: left;/*width: 180px;*/ background: url(http://www.zerouav.com/images/tag.png) left center no-repeat;padding-left: 20px;}
+
+
+
+#indexNews{width:1170px;margin:0 auto;overflow:hidden;margin-top: 30px;padding-bottom: 50px;background:#fff;}
+.newsList{width:110%;overflow:hidden;}
+.newsbox{float:left;width:360px;padding-right: 20px;margin-right:20px;border-right:1px solid #ddd;}
+.newsbox .more{color: #006eb9;float: right;font-size: 14px;line-height:40px;}
+.newsbox h1{width:100%;height:40px;font-size:24px;color:#333;}
+.newsbox dl{width:100%;overflow:hidden;margin-top:20px;}
+.newsbox dl dt{float:left;width:100px;height:auto;}
+.newsbox dl dd{float:right;width:240px;overflow:hidden;}
+.newsbox dl dd strong{display:block;font-size:12px;line-height:22px;font-weight:100;margin-bottom:5px;}
+.newsbox dl dd span{display:block;font-size:12px;color:#ccc;}
+
+.newsline TD {
+	LINE-HEIGHT: 25px; BORDER-BOTTOM: #c9c9c9 1px dashed
+}
+.newsline TD A:link {
+	COLOR: #000
+}
+.newsline TD A:visited {
+	COLOR: #000
+}
+.newsline TD A:hover {
+	COLOR: #000
+}
+.newsline TD A:active {
+	COLOR: #000
+}
+.STYLE11 {color: #993300; font-weight: bold; }

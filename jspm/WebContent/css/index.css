@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+.banner{ position: relative; height:500px;overflow:hidden;margin: 0 auto;z-index: 1; margin-bottom:55px; }
+#slides{width:1600px; height:500px; position: absolute;z-index: 10;margin-bottom:29px; left:50%; margin-left:-800px; }
+#slides .slides_container{width:1600px; height:500px; position:absolute; left:0; top:0;}
+#slides .slides_container img{display: block;width:1600px; height:500px;}
+#slides .pagination{ position:absolute; bottom:15px; z-index:20; left:50%;}
+#slides .pagination li{ float:left; background: url(../qtimages/btn_banner.png) no-repeat -57px top; margin:0 10px; }
+#slides .pagination li a{display:block;font-size:0;ine-height:0;text-indent:-9999px; width:36px; height:36px;}
+#slides .pagination li.current{background:url(../qtimages/btn_banner.png) no-repeat left top;}
+#slides .prev{ display:none; position:absolute; left:4%; top:284px; background: url(../qtimages/bg_banner_left.png) no-repeat left top; width:87px; height:87px; z-index:20;font-size:0;line-height:0;text-indent:-9999px;}
+#slides .next{ display:none; position:absolute; right:4%; top:284px; background: url(../qtimages/bg_banner_right.png) no-repeat left top; width:87px; height:87px; z-index:20;font-size:0;line-height:0;text-indent:-9999px;}
+
+.content_index h2{ height:46px; line-height:46px; border-bottom:2px solid #03349b; margin-bottom:20px; font-size:18px; color:#000;}
+.about_rideo{ margin-bottom:55px;}
+.content_index .about{ width:638px; float:left;}
+.content_index .rideo{ width:400px; float:right;}
+
+.about_con img{ float:left; margin-right:15px;}
+.about_con p{ font-size:14px; color:#000; line-height:20px;}
+.about_con p a{ font-size:14px; color:#000; line-height:20px;}
+
+.rideo_con{ text-align:center;}
+
+.overseas{ margin-bottom:55px;}
+.overseas h2 span,.news h2 span{ float:right; width:127px; height:35px; margin-top:5px;}
+.overseas h2 span a,.news h2 span a{ width:127px; height:35px; line-height:35px; background:url(../qtimages/btn_more.png) no-repeat right top; font-size:14px; color:#fff;/* font-weight:normal;*/  display:block; text-align:center;}
+.overseas_con{ width:1095px;}
+.overseas_con .box{ width:350px; float:left; margin-right:15px;}
+.overseas_con .box:hover dl{ background-color:#03349b;}
+.overseas_con .box:hover dl a{ color:#fff;}
+.overseas_con .box:hover dl dt a{ border-bottom:2px solid #fff;}
+.overseas_con .box .img{ width:350px; height:248px;}
+.overseas_con .box .img img{ width:350px; height:248px;}
+.overseas_con .box dl{ border:1px solid #03349b; padding:12px 20px;}
+.overseas_con .box dl dt{ font-size:13px; margin-bottom:20px;} 
+.overseas_con .box dl dt a{ color:#000;  font-size:13px; padding-right:30px; border-bottom:2px solid #03349b; padding-bottom:5px; font-weight:bold;}
+.overseas_con .box dl dd{ font-size:13px; font-size:13px;}
+.overseas_con .box dl dd a{ color:#000; font-size:14px;}
+
+.news{ margin-bottom:40px;}
+.news_con{ width:1088px;}
+.news_con .box{ width:263px;height:369px; margin-right:8px; position:relative; float:left;}
+.news_con .box:hover dl{ background-color:#a78863; background-image:none;}
+.news_con .box:hover dl a{ color:#fff;}
+.news_con .box:hover dl dt a{ border-bottom:2px solid #fff;}
+.news_con .box .img{ position:absolute; left:0; top:0; width:263px; height:369px;}
+.news_con .box dl{ width:223px;position:absolute; bottom:0; left:0; height:100px; background:url(../qtimages/bg_news_p.png) repeat left top; z-index:20; padding:10px 20px;}
+.news_con .box dl dt{ font-size:13px; margin-bottom:20px;} 
+.news_con .box dl dt b{ color:#fff;  font-size:13px; padding-right:30px; border-bottom:2px solid #fff; padding-bottom:5px; font-weight:bold;}
+.news_con .box dl dd{ font-size:13px; font-size:13px;}
+.news_con .box dl dd a{ color:#fff; font-size:14px;}
+
+.partner_wrapper{height:144px;}
+.parter_con{ padding-top:22px;}
+.parter_con h2{ float:left; width:140px; font-size:20px; color:#000; margin-left:25px; line-height:40px; margin-top:10px;}
+
+.clear {clear:both;display:block;}
+.carousel {width:900px; float:right;}
+.carousel .prev , .carousel .next {height:76px;width:23px;overflow:hidden;display:block;margin-top:10px;text-decoration:none;cursor:pointer;}
+.carousel .prev {float:left; background:url(../qtimages/bg_team_left.png) no-repeat;}
+.carousel .next {float:left; background:url(../qtimages/bg_team_right.png) no-repeat;}
+
+.jCarouselLite {float:left;height:103px; width:830px !important;overflow:hidden;/*必要元素*/ margin-left:15px; margin-right:5px;}
+.jCarouselLite li{height:103px;width:198px;text-align:center; margin-right:10px;}
