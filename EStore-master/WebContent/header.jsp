@@ -38,9 +38,9 @@
 	<div class="col-md-3" style="padding-top:20px">
 		<ol class="list-inline">
 			<c:if test="${empty user }">
-				<li class="btn btn-default"><a href="login.jsp">登录</a></li>
+				<li class="btn btn-info"><a href="login.jsp">登录</a></li>
 				<li>|</li>
-				<li class="btn btn-default"><a href="register.jsp">注册</a></li>
+				<li class="btn btn-info"><a href="register.jsp">注册</a></li>
 				<li>|</li>
 			</c:if>
 			<c:if test="${!empty user }">
@@ -49,14 +49,14 @@
 				<li>|</li>
 			</c:if>
 			<c:if test="${empty user }">
-			<li class="btn btn-default"><a href="javascript:alert('请先登录！'); " >购物车</a></li>
+			<li class="btn btn-info"><a href="javascript:alert('请先登录！'); " >购物车</a></li>
 			<li>|</li>
 			</c:if>
 			<c:if test="${!empty user }">
-			<li class="btn btn-default"><a href="cart.jsp">购物车</a></li>
+			<li class="btn btn-info"><a href="cart.jsp">购物车</a></li>
 			<li>|</li>
 			</c:if>
-			<li class="btn btn-default" ><a href="javascript:alert('请先登录！');">我的订单</a></li>
+			<li class="btn btn-info" ><a href="javascript:alert('请先登录！');">我的订单</a></li>
 		</ol>
 	</div>
 </div>

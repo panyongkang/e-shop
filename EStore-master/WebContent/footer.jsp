@@ -26,6 +26,23 @@
 	</div>
 	<div style="text-align: center;margin-top: 5px;margin-bottom:20px;background:#f4f4f4;">
 		<pre>Copyright &copy; 20015-2019 百脑商城 版权所有</pre>
+		<a href="#top"><input class="btn btn-default" value="返回顶部" style="width:20%;"></a>
+		<!-- 用js实现置顶，置底功能 -->
+		<div id="backUp"
+			style="z-index: 9999; position: fixed ! important; right: 5px; bottom: 70px;height:50px;with:50px; ">
+			<img style="height:50px;with:50px;" src="./img/top.jpg" />
+		</div>
+		<div id="backDown"
+			style="z-index: 9999; position: fixed ! important; right: 5px; bottom: 30px;height:50px;with:50px;">
+			<img style="transform: rotate(180deg);height:50px;with:50px;"
+				src="./img/top.jpg" />
+		</div>
 	</div>
 
 </div>
+<script>
+//回顶部
+$('#backUp').click(function () { $('html,body').animate({ scrollTop: '0px' }, 500); return false; });
+//回底部（网页最末端）
+$('#backDown').click(function () { $('html,body').animate({ scrollTop: document.getElementsByTagName('BODY')[0].scrollHeight}, 500); return false; });
+</script>
