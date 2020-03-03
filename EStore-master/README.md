@@ -27,7 +27,7 @@
 
 ### 1、首页
 
-![](https://i.imgur.com/2yIrtBL.png)
+![](EStore-master/img-folder/homepage.gif)
 
 ### 2、分页
 
