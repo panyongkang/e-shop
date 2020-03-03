@@ -316,8 +316,8 @@ public class ComputerServlet extends HttpServlet {
 	
 	protected void getComputers(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String pageNoStr = request.getParameter("pageNo");
-		String minPriceStr = request.getParameter("minPrice");
-		String maxPriceStr = request.getParameter("maxPrice");
+		String minPriceStr = request.getParameter("minPrice");//最低价格
+		String maxPriceStr = request.getParameter("maxPrice");//最高价格
 		
 		
 		int pageNo = 1;

@@ -25,7 +25,7 @@
 		</ul>
 	</div>
 	<div style="text-align: center;margin-top: 5px;margin-bottom:20px;background:#f4f4f4;">
-		<pre>Copyright &copy; 20015-2019 百脑商城 版权所有</pre>
+		<pre>Copyright &copy; 2015-2019 百脑科技商城 版权所有</pre>
 		<a href="#top"><input class="btn btn-default" value="返回顶部" style="width:20%;"></a>
 		<!-- 用js实现置顶，置底功能 -->
 		<div id="backUp"
