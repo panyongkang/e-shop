@@ -45,8 +45,8 @@
 
 ![](https://i.imgur.com/xPb2N4m.png)
 
-
-
+### 6、账户信息
+![账户信息页](https://github.com/panyongkang/gitRepository/blob/master/EStore-master/img-folder/account.png)
 
  
 
