@@ -27,7 +27,7 @@
 
 ### 1、首页
 
-![](EStore-master/img-folder/homepage.gif)
+![首页图片](https://github.com/panyongkang/gitRepository/blob/master/EStore-master/img-folder/homepage.gif)
 
 ### 2、分页
 
