@@ -25,27 +25,36 @@
 
 
 
-### 1、首页
+### 1、登录
 
-![首页图片](https://github.com/panyongkang/gitRepository/blob/master/EStore-master/img-folder/homepage.gif)
+![登录页面1](https://github.com/panyongkang/gitRepository/blob/master/EStore-master/img-folder/login1.gif)
+![登录页面2](https://github.com/panyongkang/gitRepository/blob/master/EStore-master/img-folder/login2.gif)
 
-### 2、分页
+### 2、注册
 
-![](https://i.imgur.com/IuFmvYt.png)
+![注册页面](https://github.com/panyongkang/gitRepository/blob/master/EStore-master/img-folder/register.gif)
 
-### 3、范围筛选
+### 3、首页
 
-![](https://i.imgur.com/35SjE32.png)
+![首页页面](https://github.com/panyongkang/gitRepository/blob/master/EStore-master/img-folder/homepage.gif)
 
-### 4、购物车
+### 4、分页
 
-![](https://i.imgur.com/5bczaKm.png)
+![分页页面](https://github.com/panyongkang/gitRepository/blob/master/EStore-master/img-folder/paging.gif)
 
-### 5、结账
+### 5、范围筛选
 
-![](https://i.imgur.com/xPb2N4m.png)
+![范围筛选](https://github.com/panyongkang/gitRepository/blob/master/EStore-master/img-folder/scope.gif)
 
-### 6、账户信息
+### 6、购物车
+
+![购物车](https://github.com/panyongkang/gitRepository/blob/master/EStore-master/img-folder/cart.gif)
+
+### 7、结账
+
+![结账](https://github.com/panyongkang/gitRepository/blob/master/EStore-master/img-folder/payment.gif)
+
+### 8、账户信息
 ![账户信息页](https://github.com/panyongkang/gitRepository/blob/master/EStore-master/img-folder/account.gif)
 
  
