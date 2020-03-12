@@ -7,10 +7,10 @@ target/
 
 #eclipse
 .settings/
-.metadata/
+.mymetadata
 .myumldata
 .classpath
 .project
-*.rar  
+*.rar 
 Services/
 WebRoot/
