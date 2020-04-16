@@ -12,7 +12,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>estore百脑汇--只卖正品，顺丰包邮</title>
+<title>百脑科技--只卖正品，值得信任</title>
 <link href="<%=cssUrl%>bootstrap.min.css" rel="stylesheet">
 
 <link href="<%=cssUrl%>index.css" rel="stylesheet">
@@ -72,8 +72,8 @@ $(function(){
 		
 		
 	
-	
-		<div class="container tips">
+<div>
+	<div class="container tips">
 			<c:if test="${param.model != null}">
 			
 				<div class="alert alert-success tip-success"> 
@@ -155,10 +155,9 @@ $(function(){
 					
 					转到 <input  type="text" size="2" id="pageNo"  data-dismiss="alert" aria-label="Close"/> 页			
 		</div>
-		<%@ include file="/commons/footer.jsp"%>
-		
-			
+</div>
 
-	
+		<%@ include file="/commons/footer.jsp"%>
 </body>
+
 </html>

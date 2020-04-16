@@ -118,7 +118,7 @@ body {
 				<div
 					style="width: 440px; border: 1px solid #E7E7E7; padding: 20px 0 20px 30px; border-radius: 5px; margin-top: 60px; background: #f4f4f4;">
 					<div class="VIPlogin">会员登录</div>
-					<form class="form-horizontal" id="loginForm" method="post" action="${pageContext.request.contextPath }/userServlet?method=userLogin">
+					<form autocomplete="off" class="form-horizontal" id="loginForm" method="post" action="${pageContext.request.contextPath }/userServlet?method=userLogin">
 						<div class="form-group">
 							<label for="username" class="col-sm-2 control-label">用户名</label>
 							<div class="col-sm-6">
@@ -131,7 +131,7 @@ body {
 							<label id="username-error" class="error" for="username"> </label>
 						</div>
 						<div class="form-group">
-							<label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+							<label for="password" class="col-sm-2 control-label">密码</label>
 							<div class="col-sm-6">
 								<input type="password" class="form-control" id="password" name="password"
 									placeholder="请输入密码">
@@ -142,7 +142,7 @@ body {
 							<label id="password-error" class="error" for="password"> </label>
 						</div>
 						<div class="form-group">
-							<label for="inputPassword3" class="col-sm-2 control-label">验证码</label>
+							<label for="checkCode" class="col-sm-2 control-label">验证码</label>
 							<div class="col-sm-3">
 								<input type="text" class="form-control" id="checkCode" name="checkCode"
 									placeholder="请输入验证码">
