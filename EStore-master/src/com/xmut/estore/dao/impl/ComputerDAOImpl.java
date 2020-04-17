@@ -20,7 +20,7 @@ public class ComputerDAOImpl extends BaseDAO<Computer> implements ComputerDAO{
 		
 		return query(sql, id);
 	}
-	//3.
+	
 	//将请求条件封装成CriteriaComputer
 	@Override
 	public Page<Computer> getPage(CriteriaComputer cc) {

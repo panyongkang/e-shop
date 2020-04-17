@@ -22,14 +22,15 @@
 </head>
 <body>
 		<%@ include file="/commons/header.jsp"%>
-		<c:choose>
-			
+		<c:choose>	
 		
 		<c:when test="${ !empty sessionScope.ShoppingCart.computers }">
 		<br><br>
 		<div class="container">
 			<div class="container">
-			<div class="alert alert-success tip-success" id="computerNumber">您的购物车中共有 <b>${sessionScope.ShoppingCart.computerNumber } </b>件商品</div>
+			<div class="alert alert-success tip-success" id="computerNumber">您的购物车中共有 <b>${sessionScope.ShoppingCart.computerNumber } </b>件商品
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+			</div>
 			<table class="table table-striped">
 				<tr>
 					<td class="col-md-6">商品名</td>
@@ -42,7 +43,7 @@
 					
 					<tr>
 						<td class="col-md-6 ">
-							<img alt="${item.computer.id }" src="${item.computer.url }"/ style="width:180px;height:180px;">
+							<img alt="${item.computer.id }" src="${item.computer.url }" style="width:180px;height:180px;">
 							${item.computer.brand } &nbsp; ${item.computer.model } 
 						</td>
 						<td class="col-md-2 cartItem text-center" style="height:100px;line-height: 200px;">
